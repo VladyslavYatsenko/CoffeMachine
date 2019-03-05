@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8848cd54-0013-4636-ad53-21c815fc7a63" name="Default Changelist" comment="" />
+    <list default="true" id="8848cd54-0013-4636-ad53-21c815fc7a63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/coffemachine/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffe/BeverageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffe/IngredientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffeMachine/CoffeMachineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/EspressoCoffeFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/LatteCoffeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeMachine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffeMachine/CoffeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffeMachine/CoffeMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/CoffeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/CoffeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/EspressoCoffeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/EspressoCoffeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteCoffeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteCoffeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/coffemachine/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Americano.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Americano.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Drink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Espresso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Ingredient$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Ingredient$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Ingredient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Latte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffe/Latte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffeMachine/CoffeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/coffeMachine/CoffeMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/factory/impl/AmericanoCoffeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/factory/impl/AmericanoCoffeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/factory/impl/CoffeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/factory/impl/CoffeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/factory/impl/EspressoCoffeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/factory/impl/EspressoCoffeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/coffemachine/factory/impl/LatteCoffeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/coffemachine/factory/impl/LatteCoffeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/company/coffemachine/AppTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,86 +47,85 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/test$IngredientTest.ic" NAME="IngredientTest Coverage Results" MODIFIED="1551794748749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.coffemachine.coffe.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/test$CoffeMachineTest.ic" NAME="CoffeMachineTest Coverage Results" MODIFIED="1551795126892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.coffemachine.coffeMachine.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/test$AmericanoTest.ic" NAME="BeverageTest Coverage Results" MODIFIED="1551793512388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.coffemachine.coffe.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/test$com_company_coffemachine_in_coffeMachine.ic" NAME="com.company.coffemachine in coffeMachine Coverage Results" MODIFIED="1551796079051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.coffemachine.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/test$BeverageTest_shouldReturnAmericano.ic" NAME="BeverageTest.shouldReturnAmericano Coverage Results" MODIFIED="1551793505497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.coffemachine.coffe.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myElementSize" value="115" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Drink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffeMachine/CoffeMachine.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteCoffeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Espresso.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/LatteCoffeFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Ingredient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <element signature="e#1156#1157#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Americano.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="75" lean-forward="true" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+            <state relative-caret-position="391">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Latte.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/ApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -97,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/CoffeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -106,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/EspressoCoffeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,12 +152,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteCoffeFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/EspressoCoffeFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,14 +197,17 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/ingredient/Ingredient.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/CoffeMachineSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/CoffeMachine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/DrinkFactory.java" />
@@ -153,24 +219,43 @@
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/MyCoffeMachineCoffeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/americano/Americano.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteCoffeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/Drink.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/EspressoCoffeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/CoffeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/Ingredient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/CoffeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Drink.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Espresso.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Americano.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Latte.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/IngredientBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Ingredient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffeMachine/CoffeMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Americano.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Espresso.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Latte.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Beverage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffe/AmericanoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffe/BeverageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Ingredient.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffeMachine/CoffeMachineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/Programm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteCoffeFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffe/IngredientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/LatteCoffeFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/EspressoCoffeFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactoryTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/coffemachine/ApplicationTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -181,6 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -248,15 +334,72 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoffeMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoffeMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coffemachine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoffeMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coffemachine" type="462c0819:PsiDirectoryNode" />
+              <item name="coffe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoffeMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coffemachine" type="462c0819:PsiDirectoryNode" />
+              <item name="coffeMachine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoffeMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coffemachine" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Railways-master/Railways-master" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.coffemachine" />
+      <recent name="com.company.coffemachine.factory.impl" />
+      <recent name="com.company.coffemachine.coffeMachine" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,23 +413,90 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.coffemachine.App" />
-      <module name="CoffeMachine" />
+  <component name="RunManager" selected="JUnit.com.company.coffemachine in coffeMachine">
+    <configuration name="AmericanoCoffeFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coffeMachine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.coffemachine.coffe.*" />
+          <option name="PATTERN" value="com.company.coffemachine.factory.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.company.coffemachine.factory.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.company.coffemachine.factory.impl.AmericanoCoffeFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmericanoCoffeFactoryTest.bevarageShouldBeInstanceOfAmericano" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coffeMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.coffemachine.factory.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.coffemachine.factory.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.company.coffemachine.factory.impl.AmericanoCoffeFactoryTest" />
+      <option name="METHOD_NAME" value="bevarageShouldBeInstanceOfAmericano" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EspressoCoffeFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coffeMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.coffemachine.factory.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.coffemachine.factory.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.company.coffemachine.factory.impl.EspressoCoffeFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LatteCoffeFactoryTest.beverageShouldBeInstanceOfLatte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coffeMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.coffemachine.factory.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.coffemachine.factory.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.company.coffemachine.factory.impl.LatteCoffeFactoryTest" />
+      <option name="METHOD_NAME" value="beverageShouldBeInstanceOfLatte" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.company.coffemachine in coffeMachine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coffeMachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.coffemachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.coffemachine" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.com.company.coffemachine in coffeMachine" />
+        <item itemvalue="JUnit.AmericanoCoffeFactoryTest" />
+        <item itemvalue="JUnit.LatteCoffeFactoryTest.beverageShouldBeInstanceOfLatte" />
+        <item itemvalue="JUnit.EspressoCoffeFactoryTest" />
+        <item itemvalue="JUnit.AmericanoCoffeFactoryTest.bevarageShouldBeInstanceOfAmericano" />
       </list>
     </recent_temporary>
   </component>
@@ -303,166 +513,97 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="IngredientTest - 2019.03.05 at 16h 05m 50s.xml">
+      <configuration name="IngredientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeMachineTest_shouldCreateLatte - 2019.03.05 at 16h 11m 14s.xml">
+      <configuration name="CoffeMachineTest.shouldCreateLatte" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoffeMachineTest - 2019.03.05 at 16h 12m 08s.xml">
+      <configuration name="CoffeMachineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmericanoCoffeFactoryTest - 2019.03.05 at 16h 24m 13s.xml">
+      <configuration name="AmericanoCoffeFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EspressoCoffeFactoryTest - 2019.03.05 at 16h 25m 06s.xml">
+      <configuration name="EspressoCoffeFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LatteCoffeFactoryTest_beverageShouldBeInstanceOfLatte - 2019.03.05 at 16h 26m 44s.xml">
+      <configuration name="LatteCoffeFactoryTest.beverageShouldBeInstanceOfLatte" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LatteCoffeFactoryTest_beverageShouldBeInstanceOfLatte - 2019.03.05 at 16h 27m 23s.xml">
+      <configuration name="LatteCoffeFactoryTest.beverageShouldBeInstanceOfLatte" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LatteCoffeFactoryTest_beverageShouldBeInstanceOfLatte - 2019.03.05 at 16h 27m 33s.xml">
+      <configuration name="LatteCoffeFactoryTest.beverageShouldBeInstanceOfLatte" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmericanoCoffeFactoryTest - 2019.03.05 at 16h 27m 52s.xml">
+      <configuration name="AmericanoCoffeFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_company_coffemachine_in_coffeMachine - 2019.03.05 at 16h 28m 00s.xml">
+      <configuration name="com.company.coffemachine in coffeMachine" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2510661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3261105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.1945629" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/ingredient/Ingredient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/CoffeMachineSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/CoffeMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/drinkFactory/impl/DrinkFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/DrinkFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/builder/CoffeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/AmericanoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/MyCoffeMachineCoffeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/latte/Latte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="8" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/ingredient/Ingredient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/CoffeMachineSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/CoffeMachine.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/drinkFactory/impl/DrinkFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/DrinkFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/builder/CoffeBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/AmericanoFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/MyCoffeMachineCoffeFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/latte/Latte.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/IngredientBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/CoffeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Americano.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Latte.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <caret line="8" column="115" selection-start-line="8" selection-start-column="115" selection-end-line="8" selection-end-column="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/EspressoCoffeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffe/BeverageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -471,48 +612,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Espresso.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="102">
+          <caret line="6" column="116" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="116" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/IngredientBuilder.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="198">
+          <caret line="742" selection-start-line="742" selection-end-line="742" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Americano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="114" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffeMachine/CoffeMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteCoffeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="75" lean-forward="true" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+        <state relative-caret-position="101">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -521,32 +658,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="452">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffe/BeverageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
           <folding>
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Latte.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffe/IngredientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="435">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/coffe/Drink.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/coffeMachine/CoffeMachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="316">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/LatteCoffeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/CoffeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/factory/impl/EspressoCoffeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/EspressoCoffeFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/LatteCoffeFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/factory/impl/AmericanoCoffeFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/coffemachine/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/coffemachine/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,12 +1,13 @@
 package com.company.coffemachine.coffe;
 
-public class Americano extends Drink {
+//Bevarage
+public class Americano extends Beverage {
 
     public Americano() {
         super("Americano");
-        addIngredient(new Ingredient.Builder("Coffe", 334.6, 0.09).build());
-        addIngredient(new Ingredient.Builder("Milk", 60.35, 0.220).build());
-        addIngredient(new Ingredient.Builder("Water", 20.33, 0.260).build());
+        addIngredient(new Ingredient.Builder().setName("Coffe").setWeight(0.223).setCostPerKilogram(133.5).build());
+        addIngredient(new Ingredient.Builder().setName("Milk").setWeight(60.35).setCostPerKilogram(0.220).build());
+        addIngredient(new Ingredient.Builder().setName("Water").setWeight(20.33).setCostPerKilogram(0.260).build());
         countCost();
         countWeight();
     }

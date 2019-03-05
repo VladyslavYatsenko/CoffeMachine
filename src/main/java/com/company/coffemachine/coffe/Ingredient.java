@@ -2,12 +2,10 @@ package com.company.coffemachine.coffe;
 
 import java.util.Objects;
 
-public class Ingredient implements Comparable<Ingredient> {
+public class Ingredient {
     private String name;
     private double costPerKilogram;
     private double weight;
-
-
 
     public Ingredient(Builder builder) {
         this.name = builder.name;
@@ -20,11 +18,6 @@ public class Ingredient implements Comparable<Ingredient> {
         private double costPerKilogram;
         private double weight;
 
-        public Builder(String name, double costPerKilogram, double weight) {
-            this.name = name;
-            this.costPerKilogram = costPerKilogram;
-            this.weight = weight;
-        }
 
         public Builder setName(String name) {
             this.name = name;
@@ -54,6 +47,7 @@ public class Ingredient implements Comparable<Ingredient> {
                         ", weight=" + weight +
                         '}';
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -63,22 +57,22 @@ public class Ingredient implements Comparable<Ingredient> {
                 Double.compare(that.weight, weight) == 0 &&
                 Objects.equals(name, that.name);
     }
+
     @Override
     public int hashCode() {
         return Objects.hash(name, costPerKilogram, weight);
     }
+
     public String getName() {
         return name;
     }
+
     public double getCost() {
         return costPerKilogram;
     }
+
     public double getWeight() {
         return weight;
-    }
-    @Override
-    public int compareTo(Ingredient o) {
-        return name.compareTo(o.getName());
     }
 
 

@@ -1,7 +1,7 @@
 package com.company.coffemachine.coffeMachine;
 
 import com.company.coffemachine.factory.impl.CoffeFactory;
-import com.company.coffemachine.coffe.Drink;
+import com.company.coffemachine.coffe.Beverage;
 import com.company.coffemachine.factory.impl.AmericanoCoffeFactory;
 import com.company.coffemachine.factory.impl.EspressoCoffeFactory;
 import com.company.coffemachine.factory.impl.LatteCoffeFactory;
@@ -19,17 +19,17 @@ public class CoffeMachine {
     }
     private CoffeFactory coffeFactory;
 
-    public Drink createLatte() {
+    public Beverage createLatte() {
         coffeFactory = new LatteCoffeFactory();
         return coffeFactory.createDrink();
     }
 
-    public Drink createAmericano() {
+    public Beverage createAmericano() {
         coffeFactory = new AmericanoCoffeFactory();
         return coffeFactory.createDrink();
     }
 
-    public Drink createEspresso() {
+    public Beverage createEspresso() {
         coffeFactory = new EspressoCoffeFactory();
         return coffeFactory.createDrink();
     }

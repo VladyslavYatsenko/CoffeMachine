@@ -1,8 +1,8 @@
 package com.company.coffemachine.factory.impl;
 
-import com.company.coffemachine.coffe.Drink;
+import com.company.coffemachine.coffe.Beverage;
 
 public interface CoffeFactory {
-    public abstract Drink createDrink();
+    public abstract Beverage createDrink();
 
 }
