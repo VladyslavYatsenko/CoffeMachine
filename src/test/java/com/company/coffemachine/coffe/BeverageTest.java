@@ -1,36 +1,51 @@
 package com.company.coffemachine.coffe;
 
-import com.company.coffemachine.factory.impl.AmericanoCoffeFactory;
-import com.company.coffemachine.factory.impl.CoffeFactory;
-import com.company.coffemachine.factory.impl.EspressoCoffeFactory;
-import com.company.coffemachine.factory.impl.LatteCoffeFactory;
+
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
+import org.mockito.Mock;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.Assert.assertEquals;
+import static org.assertj.core.api.Assertions.*;
 
 public class BeverageTest {
-    private Beverage americano=new Americano();
-    @Test
-    public void shouldReturnRightCostOfProduct(){
-        List<Ingredient> ingredientsList=americano.getIngredients();
-        double expected=0;
-        for(Ingredient ingredient:ingredientsList){
-            expected+=ingredient.getCost()*ingredient.getWeight();
-        }
-        assertEquals(expected,americano.getTotalCost(),0.01);
+
+    private Beverage beverage;
+    private Beverage espresso;
+    private Beverage latte;
+
+    @Mock
+    private List<Ingredient> ingredientsList;//if ingrident`s will change
+
+    @Before
+    public void init() {
+        beverage= new Americano();
+        ingredientsList = beverage.getIngredients();
+
     }
     @Test
-    public void shouldReturnRightWeightOfProduct(){
-        List<Ingredient> ingredientsList=americano.getIngredients();
-        double expected=0;
-        for(Ingredient ingredient:ingredientsList){
-            expected+=ingredient.getWeight();
+    public void testShouldReturnRightCostOfAmericano() {
+        double expected = 0;
+        for (Ingredient ingredient : ingredientsList) {
+            expected += ingredient.getCost() * ingredient.getWeight();
         }
-        assertEquals(expected,americano.getTotalWeight(),0.01);
+        expected = (double) Math.round(expected * 100d) / 100d;
+        assertThat(expected).isEqualTo(beverage.getTotalCost());
+    }
+    @Test
+    public void testShouldReturnRightListOfIngredientsOfAmericano() {
+        Ingredient milk = new Ingredient.Builder().setName("Milk").setWeight(60.35).setCostPerKilogram(0.220).build();
+        Ingredient water = new Ingredient.Builder().setName("Milk").setWeight(60.35).setCostPerKilogram(0.220).build();
+        Ingredient coffe = new Ingredient.Builder().setName("Water").setWeight(20.33).setCostPerKilogram(0.260).build();
+        assertThat(ingredientsList).contains(milk).contains(water).contains(coffe);
+    }
+
+    @Test
+    public void shouldReturnRightWeightOfAmericano() {
+        double expected = 0;
+        for (Ingredient ingredient : ingredientsList) {
+            expected += ingredient.getWeight();
+        }
+        assertThat(expected == beverage.getTotalWeight());
     }
 }

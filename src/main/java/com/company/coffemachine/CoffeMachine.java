@@ -8,15 +8,9 @@ import com.company.coffemachine.factory.impl.LatteCoffeFactory;
 
 public class CoffeMachine implements Machine {
     private CoffeFactory coffeFactory;
-
+    private String name = "Coffe Machine(Version 1.1)";
     private boolean status;
 
-    public CoffeMachine(CoffeFactory coffeFactory) {//For Mockito Testing(
-        this.coffeFactory = coffeFactory;
-    }
-    public CoffeMachine(){
-
-    }
     public void on() {
         status = true;
     }
@@ -30,22 +24,22 @@ public class CoffeMachine implements Machine {
     }
 
     public Beverage createLatte() {
-        coffeFactory=new LatteCoffeFactory();
+        coffeFactory = new LatteCoffeFactory();
         return coffeFactory.createDrink();
     }
 
     public Beverage createAmericano() {
-        coffeFactory=new AmericanoCoffeFactory();
+        coffeFactory = new AmericanoCoffeFactory();
         return coffeFactory.createDrink();
     }
 
     public Beverage createEspresso() {
-        coffeFactory=new EspressoCoffeFactory();
+        coffeFactory = new EspressoCoffeFactory();
         return coffeFactory.createDrink();
     }
 
-    public String description() {
-        return "Coffe Machine(Version 1.1)";
+    public String getDescription() {
+        return name;
     }
 
 }

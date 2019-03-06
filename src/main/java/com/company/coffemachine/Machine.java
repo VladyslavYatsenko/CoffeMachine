@@ -9,6 +9,6 @@ public interface Machine {
 
     public abstract boolean getStatus();
 
-    public abstract String description();
+    public abstract String getDescription();
 
 }
