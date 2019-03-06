@@ -20,7 +20,6 @@ public class LatteCoffeFactoryTest {
     @Test
     public void beverageShouldBeInstanceOfLatte() {
         Beverage drink = coffeFactory.createDrink();
-
         assertTrue(drink instanceof Latte);
 
     }

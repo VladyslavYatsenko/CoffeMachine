@@ -2,6 +2,7 @@ package com.company.coffemachine.coffe;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
 
 public abstract class Beverage {
     private List<Ingredient> ingredients = new LinkedList<>();
@@ -41,5 +42,21 @@ public abstract class Beverage {
         totalWeight = (double) Math.round(totalWeight * 100d) / 100d;
         return totalWeight;
 
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Beverage beverage = (Beverage) o;
+        return Double.compare(beverage.totalCost, totalCost) == 0 &&
+                Double.compare(beverage.totalWeight, totalWeight) == 0 &&
+                ingredients.equals(beverage.ingredients) &&
+                name.equals(beverage.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ingredients, name, totalCost, totalWeight);
     }
 }
