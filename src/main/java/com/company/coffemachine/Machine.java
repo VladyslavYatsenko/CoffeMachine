@@ -1,6 +1,6 @@
-package com.company.coffemachine.coffeMachine;
+package com.company.coffemachine;
 
-import com.company.coffemachine.coffe.Beverage;
+
 
 public interface Machine {
     public abstract void on();

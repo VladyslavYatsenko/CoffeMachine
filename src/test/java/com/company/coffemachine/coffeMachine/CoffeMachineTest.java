@@ -1,5 +1,6 @@
 package com.company.coffemachine.coffeMachine;
 
+import com.company.coffemachine.CoffeMachine;
 import com.company.coffemachine.coffe.Americano;
 import com.company.coffemachine.coffe.Beverage;
 import com.company.coffemachine.coffe.Espresso;
@@ -7,8 +8,6 @@ import com.company.coffemachine.coffe.Latte;
 import com.company.coffemachine.factory.impl.CoffeFactory;
 import org.junit.Before;
 import org.junit.Test;
-
-import javax.crypto.Mac;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;

@@ -10,6 +10,14 @@ public abstract class Beverage {
     private double totalCost;
     private double totalWeight;
 
+    public double getTotalCost() {
+        return totalCost;
+    }
+
+    public double getTotalWeight() {
+        return totalWeight;
+    }
+
     @Override
     public String toString() {
         return "Your drink is-> [" + name + "]" + "\n [Ingredients: " + ingredients + "]" + "\n Total Cost (UAH)->" + totalCost + " Total Weight (kg)->" + totalWeight;

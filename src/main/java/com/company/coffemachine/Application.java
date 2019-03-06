@@ -1,7 +1,5 @@
 package com.company.coffemachine;
 
-import com.company.coffemachine.coffeMachine.CoffeMachine;
-
 import java.util.Scanner;
 
 public class Application {

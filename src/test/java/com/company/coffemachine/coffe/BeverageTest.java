@@ -14,24 +14,23 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 public class BeverageTest {
-    private CoffeFactory coffeFactory;
-
+    private Beverage americano=new Americano();
     @Test
-    public void shouldReturnAmericano() {
-        coffeFactory = new AmericanoCoffeFactory();
-        assertEquals(new Americano().getIngredients(), coffeFactory.createDrink().getIngredients());
+    public void shouldReturnRightCostOfProduct(){
+        List<Ingredient> ingredientsList=americano.getIngredients();
+        double expected=0;
+        for(Ingredient ingredient:ingredientsList){
+            expected+=ingredient.getCost()*ingredient.getWeight();
+        }
+        assertEquals(expected,americano.getTotalCost(),0.01);
     }
-
     @Test
-    public void shouldReturnEspresso() {
-        coffeFactory = new EspressoCoffeFactory();
-        assertEquals(new Espresso().getIngredients(), coffeFactory.createDrink().getIngredients());
-
-    }
-
-    @Test
-    public void shouldReturnLatte() {
-        coffeFactory = new LatteCoffeFactory();
-        assertEquals(new Latte().getIngredients(), coffeFactory.createDrink().getIngredients());
+    public void shouldReturnRightWeightOfProduct(){
+        List<Ingredient> ingredientsList=americano.getIngredients();
+        double expected=0;
+        for(Ingredient ingredient:ingredientsList){
+            expected+=ingredient.getWeight();
+        }
+        assertEquals(expected,americano.getTotalWeight(),0.01);
     }
 }

@@ -1,4 +1,4 @@
-package com.company.coffemachine.coffeMachine;
+package com.company.coffemachine;
 
 import com.company.coffemachine.factory.impl.AmericanoCoffeFactory;
 import com.company.coffemachine.factory.impl.CoffeFactory;

@@ -1,5 +1,6 @@
 package com.company.coffemachine.coffe;
 
+
 //Bevarage
 public class Americano extends Beverage {
 
@@ -11,4 +12,5 @@ public class Americano extends Beverage {
         countCost();
         countWeight();
     }
+
 }
